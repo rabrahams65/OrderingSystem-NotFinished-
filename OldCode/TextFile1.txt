@@ -1,0 +1,88 @@
+﻿private async void OrderAllocation_Load(object sender, EventArgs e)
+        {
+            //SqlConnection con = new SqlConnection("Data Source=ROWAN-PC-HOME\\SQLEXPRESS;Initial Catalog=OrderManagement;Persist Security Info=True;User ID=sa;Password=Nut7193");
+            //con.Open();
+            
+
+            /////////////add api values to database
+            //////////////this.orderAllocationViewBindingSource.EndEdit();
+            //////////////this.orderAllocationViewTableAdapter.Update(this.orderAllocationDataSet.OrderAllocationView);
+
+            ////DateTimePickers
+            //string fromDate = string.Format("{0:yyyy-MM-dd}T{0:HH:mm:ss}.000Z", this.fromDateTimePicker.Value.Date);
+            //string toDate = string.Format("{0:yyyy-MM-dd}T{0:HH:mm:ss}.000Z", this.toDateTimePicker.Value.Date);
+
+
+            ////API
+            //string token = "23676f9f188c4634bff1540450755f2f";
+            //string baseUrl = "https://api.loyverse.com/v1.0/";
+            //string receiptsQuery = "receipts?";
+            //////////////string receiptCreatedMin = "created_at_min=" + fromDate;
+            //////////////string receiptCreatedMax = "&created_at_max=" + toDate;
+
+            //string receiptCreatedMin = "created_at_min=" + "2021-01-01T00:00:00.000Z";
+            //string receiptCreatedMax = "&created_at_max=" + "2021-03-15T00:00:00.000Z";
+            //string limits = "&limit=";
+            //int limit = 250;
+            //string url = baseUrl + receiptsQuery + receiptCreatedMin + receiptCreatedMax + limits + limit;
+            //HttpClientHandler handler = new HttpClientHandler();
+            //HttpClient client = new HttpClient(handler);
+            //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            //string result = await client.GetStringAsync(url);
+            //var resultObject = JObject.Parse(result);
+
+
+            ///////////////////Connect class with the api
+            //API.Receipt receipt = new Receipt();
+            //API.Receipts receiptsList = new Receipts();
+
+            //JArray jArray = new JArray();
+            //foreach (var item in resultObject["receipts"])
+            //{
+            //    jArray.Add(item);
+            //}
+
+            //int length = jArray.Count;
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    //////////////Connect Class to resultObject
+            //    receipt.receipt_number = resultObject["receipts"][i]["receipt_number"].ToString();
+            //    receipt.receipt_date = (DateTime)resultObject["receipts"][i]["created_at"];
+            //    receipt.customer_id = resultObject["receipts"][i]["customer_id"].ToString();
+            //    receipt.note = resultObject["receipts"][i]["note"].ToString();
+            //    receipt.receipt_type = resultObject["receipts"][i]["receipt_type"].ToString();
+            //    receipt.total_money = (double)resultObject["receipts"][i]["total_money"];
+            //    receipt.total_tax = (double)resultObject["receipts"][i]["total_tax"];
+            //    receipt.employee_id = resultObject["receipts"][i]["employee_id"].ToString();
+            //    receipt.store_id = resultObject["receipts"][i]["store_id"].ToString();
+            //    receipt.pos_device_id = resultObject["receipts"][i]["pos_device_id"].ToString();
+            //    receipt.total_discount = (double)resultObject["receipts"][i]["total_discount"];
+            //    ////////////Add Rows
+                
+
+            //    SqlCommand cmd = new SqlCommand("Insert Into Receipts values (@receiptId,@note,@receiptType,@receiptDate," +
+            //    "@totalMoney,@totalTax,@customerId,@employeeId,@storeId,@posDeviceId,@totalDiscountId,@route)", con);
+            //    cmd.Parameters.AddWithValue("@receiptId", receipt.receipt_number);
+            //    cmd.Parameters.AddWithValue("@note", receipt.note);
+            //    cmd.Parameters.AddWithValue("@receiptType", receipt.receipt_type);
+            //    cmd.Parameters.AddWithValue("@receiptDate", receipt.receipt_date);
+            //    cmd.Parameters.AddWithValue("@totalMoney", receipt.total_money);
+            //    cmd.Parameters.AddWithValue("@totalTax", receipt.total_tax);
+            //    cmd.Parameters.AddWithValue("@customerId", receipt.customer_id);
+            //    cmd.Parameters.AddWithValue("@employeeId", receipt.employee_id);
+            //    cmd.Parameters.AddWithValue("@storeId", receipt.store_id);
+            //    cmd.Parameters.AddWithValue("@posDeviceId", receipt.pos_device_id);
+            //    cmd.Parameters.AddWithValue("@totalDiscountId", receipt.total_discount);
+            //    cmd.Parameters.AddWithValue("@route", "none");
+
+            //    cmd.ExecuteNonQuery();
+                
+            //}
+
+            
+
+            //con.Close();
+
+
+        }
