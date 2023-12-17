@@ -112,16 +112,16 @@ namespace OrderingSystem
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1008, 79);
+            this.panel1.Size = new System.Drawing.Size(1260, 63);
             this.panel1.TabIndex = 1;
             // 
             // lblMinimise
             // 
             this.lblMinimise.AutoSize = true;
-            this.lblMinimise.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMinimise.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMinimise.Location = new System.Drawing.Point(944, 9);
             this.lblMinimise.Name = "lblMinimise";
-            this.lblMinimise.Size = new System.Drawing.Size(22, 16);
+            this.lblMinimise.Size = new System.Drawing.Size(23, 16);
             this.lblMinimise.TabIndex = 3;
             this.lblMinimise.Text = "__";
             this.lblMinimise.Click += new System.EventHandler(this.lblMinimise_Click);
@@ -129,10 +129,10 @@ namespace OrderingSystem
             // lblClose
             // 
             this.lblClose.AutoSize = true;
-            this.lblClose.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblClose.Location = new System.Drawing.Point(972, 13);
             this.lblClose.Name = "lblClose";
-            this.lblClose.Size = new System.Drawing.Size(17, 16);
+            this.lblClose.Size = new System.Drawing.Size(16, 16);
             this.lblClose.TabIndex = 3;
             this.lblClose.Text = "X";
             this.lblClose.Click += new System.EventHandler(this.lblClose_Click);
@@ -140,10 +140,10 @@ namespace OrderingSystem
             // lblAdmin
             // 
             this.lblAdmin.AutoSize = true;
-            this.lblAdmin.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAdmin.Location = new System.Drawing.Point(14, 28);
             this.lblAdmin.Name = "lblAdmin";
-            this.lblAdmin.Size = new System.Drawing.Size(211, 19);
+            this.lblAdmin.Size = new System.Drawing.Size(221, 20);
             this.lblAdmin.TabIndex = 1;
             this.lblAdmin.Text = "Order Allocation / Request";
             // 
@@ -156,9 +156,9 @@ namespace OrderingSystem
             this.panel2.Controls.Add(this.btnAllocatedOrders);
             this.panel2.Controls.Add(this.btnRepOrders);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 79);
+            this.panel2.Location = new System.Drawing.Point(0, 63);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1008, 53);
+            this.panel2.Size = new System.Drawing.Size(1260, 42);
             this.panel2.TabIndex = 2;
             // 
             // btnRequestFromFactory
@@ -175,7 +175,7 @@ namespace OrderingSystem
             this.btnRequestFromFactory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnRequestFromFactory.DisabledState.Parent = this.btnRequestFromFactory;
             this.btnRequestFromFactory.FillColor = System.Drawing.Color.White;
-            this.btnRequestFromFactory.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRequestFromFactory.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRequestFromFactory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRequestFromFactory.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(203)))), ((int)(((byte)(39)))));
             this.btnRequestFromFactory.HoverState.Parent = this.btnRequestFromFactory;
@@ -201,7 +201,7 @@ namespace OrderingSystem
             this.btnReadyForDelivery.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnReadyForDelivery.DisabledState.Parent = this.btnReadyForDelivery;
             this.btnReadyForDelivery.FillColor = System.Drawing.Color.White;
-            this.btnReadyForDelivery.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReadyForDelivery.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReadyForDelivery.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnReadyForDelivery.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(203)))), ((int)(((byte)(39)))));
             this.btnReadyForDelivery.HoverState.Parent = this.btnReadyForDelivery;
@@ -227,7 +227,7 @@ namespace OrderingSystem
             this.btnOrdersOnHold.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnOrdersOnHold.DisabledState.Parent = this.btnOrdersOnHold;
             this.btnOrdersOnHold.FillColor = System.Drawing.Color.White;
-            this.btnOrdersOnHold.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrdersOnHold.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOrdersOnHold.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnOrdersOnHold.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(203)))), ((int)(((byte)(39)))));
             this.btnOrdersOnHold.HoverState.Parent = this.btnOrdersOnHold;
@@ -253,7 +253,7 @@ namespace OrderingSystem
             this.btnAllocatedOrders.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnAllocatedOrders.DisabledState.Parent = this.btnAllocatedOrders;
             this.btnAllocatedOrders.FillColor = System.Drawing.Color.White;
-            this.btnAllocatedOrders.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAllocatedOrders.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAllocatedOrders.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnAllocatedOrders.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(203)))), ((int)(((byte)(39)))));
             this.btnAllocatedOrders.HoverState.Parent = this.btnAllocatedOrders;
@@ -281,7 +281,7 @@ namespace OrderingSystem
             this.btnRepOrders.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnRepOrders.DisabledState.Parent = this.btnRepOrders;
             this.btnRepOrders.FillColor = System.Drawing.Color.White;
-            this.btnRepOrders.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRepOrders.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRepOrders.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRepOrders.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(203)))), ((int)(((byte)(39)))));
             this.btnRepOrders.HoverState.Parent = this.btnRepOrders;
@@ -309,9 +309,9 @@ namespace OrderingSystem
             this.panel3.Controls.Add(this.btnSearch);
             this.panel3.Controls.Add(this.txtSearch);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 132);
+            this.panel3.Location = new System.Drawing.Point(0, 105);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1008, 49);
+            this.panel3.Size = new System.Drawing.Size(1260, 39);
             this.panel3.TabIndex = 4;
             // 
             // lblTo
@@ -358,7 +358,7 @@ namespace OrderingSystem
             this.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRefresh.ImageIndex = 1;
             this.btnRefresh.ImageList = this.imageList1;
-            this.btnRefresh.Location = new System.Drawing.Point(941, 14);
+            this.btnRefresh.Location = new System.Drawing.Point(1193, 14);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(55, 20);
             this.btnRefresh.TabIndex = 1;
@@ -403,7 +403,7 @@ namespace OrderingSystem
             this.datagridRepOrders.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.PaleGoldenrod;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -423,7 +423,7 @@ namespace OrderingSystem
             this.lineItemTotal});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.PaleGoldenrod;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
@@ -512,6 +512,7 @@ namespace OrderingSystem
             // footerPanelRepOrders
             // 
             this.footerPanelRepOrders.BackColor = System.Drawing.Color.White;
+            this.footerPanelRepOrders.Controls.Add(this.panel4);
             this.footerPanelRepOrders.Controls.Add(this.lblTotalRows);
             this.footerPanelRepOrders.Controls.Add(this.label1);
             this.footerPanelRepOrders.Controls.Add(this.btnAllocateToRoute);
@@ -587,7 +588,7 @@ namespace OrderingSystem
             this.dataGridAllocatedOrders.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.PaleGoldenrod;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -606,21 +607,21 @@ namespace OrderingSystem
             this.dataGridAllocatedOrders.DataSource = this.allocatedOrdersBindingSource;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 9F);
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.PaleGoldenrod;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridAllocatedOrders.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridAllocatedOrders.GridColor = System.Drawing.Color.White;
-            this.dataGridAllocatedOrders.Location = new System.Drawing.Point(0, 355);
+            this.dataGridAllocatedOrders.Location = new System.Drawing.Point(0, 180);
             this.dataGridAllocatedOrders.Name = "dataGridAllocatedOrders";
             this.dataGridAllocatedOrders.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dataGridAllocatedOrders.RowHeadersVisible = false;
             this.dataGridAllocatedOrders.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
             this.dataGridAllocatedOrders.RowTemplate.Height = 40;
             this.dataGridAllocatedOrders.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridAllocatedOrders.Size = new System.Drawing.Size(1009, 254);
+            this.dataGridAllocatedOrders.Size = new System.Drawing.Size(1009, 378);
             this.dataGridAllocatedOrders.TabIndex = 7;
             // 
             // receiptIdDataGridViewTextBoxColumn
@@ -717,7 +718,7 @@ namespace OrderingSystem
             this.panel4.Controls.Add(this.btnRemoveFromRoute);
             this.panel4.Controls.Add(this.lblTotalAllocatedOrders);
             this.panel4.Controls.Add(this.label3);
-            this.panel4.Location = new System.Drawing.Point(0, 564);
+            this.panel4.Location = new System.Drawing.Point(3, 7);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1009, 45);
             this.panel4.TabIndex = 8;
@@ -758,8 +759,7 @@ namespace OrderingSystem
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1008, 672);
-            this.Controls.Add(this.panel4);
+            this.ClientSize = new System.Drawing.Size(1260, 840);
             this.Controls.Add(this.dataGridAllocatedOrders);
             this.Controls.Add(this.footerPanelRepOrders);
             this.Controls.Add(this.datagridRepOrders);

@@ -12,7 +12,7 @@ namespace OrderingSystem.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.10.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.4.0.0")]
     public sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -20,17 +20,6 @@ namespace OrderingSystem.Properties {
         public static Settings Default {
             get {
                 return defaultInstance;
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=ROWAN-PC-HOME\\SQLEXPRESS;Initial Catalog=OrderManagement;Persist Secu" +
-            "rity Info=True;User ID=sa;Password=Nut7193")]
-        public string OrderManagementConnectionString {
-            get {
-                return ((string)(this["OrderManagementConnectionString"]));
             }
         }
         
@@ -43,6 +32,28 @@ namespace OrderingSystem.Properties {
             }
             set {
                 this["allocatedIntCount"] = value;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-4D48SUF;Initial Catalog=OrderManagement;Integrated Security=T" +
+            "rue")]
+        public string OrderManagementConnectionString {
+            get {
+                return ((string)(this["OrderManagementConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-4D48SUF;Initial Catalog=OrderManagement;Integrated Security=T" +
+            "rue")]
+        public string OrderManagementConnectionString1 {
+            get {
+                return ((string)(this["OrderManagementConnectionString1"]));
             }
         }
     }
